@@ -39,6 +39,7 @@ def translate(self, addr):
 def valid_address(self, paddr):
         return self.translate(paddr) if not None
 
+
 #to do
 #create method to get all of memory addresses
 #subtract the memory addreses we find from the memory
