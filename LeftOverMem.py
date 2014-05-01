@@ -39,6 +39,20 @@ def translate(self, addr):
 def valid_address(self, paddr):
         return self.translate(paddr) if not None
 
+def memTotal(self):
+        #???
+
+
+def main():
+while true:
+symbol = input("What is the symbol you want to filter out?")
+#do total memory minus symbol
+# printout = memTotal - symbol
+#print ("This is your memory minus",symbol, "\n" , printout")
+
+if __name__ == "__main__":
+    main()
+
 
 #to do
 #create method to get all of memory addresses
